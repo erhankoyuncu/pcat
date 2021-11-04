@@ -1,0 +1,26 @@
+{
+  "name": "picat",
+  "version": "1.0.0",
+  "description": "pcat photo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erhankoyuncu/pcat.git"
+  },
+  "keywords": [
+    "photo",
+    "app"
+  ],
+  "author": "Erhan Koyuncu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erhankoyuncu/pcat/issues"
+  },
+  "homepage": "https://github.com/erhankoyuncu/pcat#readme",
+  "devDependencies": {
+    "prettier": "2.4.1"
+  }
+}
