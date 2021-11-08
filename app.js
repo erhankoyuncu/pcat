@@ -24,9 +24,13 @@ app.use(methodOverride('_method', {
     methods: ['POST', 'GET']
 }))
  
-mongoose.connect('mongodb://localhost/pcat-test-db');
+mongoose.connect('mongodb+srv://coderhan:User--**@cluster0.nbgfp.mongodb.net/pcat-db?retryWrites=true&w=majority')
+.then(()=> {
+    console.log("DB COnnect");
+}).catch((e)=> console.log(e))
+;
 
-const port = 3000;
+const port = process.env.PORT || 5000;
 
 //Kontroller
 app.get('/', photoController.getAllPhotos)
